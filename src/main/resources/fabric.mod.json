@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "itemlimit",
+  "version": "${version}",
+  "name": "ItemLimitMod",
+  "description": "Reduces the max item stack to 5",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/itemlimit/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.itemlimitmod.ItemLimit"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "itemlimit.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.7"
+  }
+}
